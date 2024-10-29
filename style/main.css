@@ -97,23 +97,33 @@ nav .menu{
         width: 300px;
     }
 }
-.arms-work{
+.arms-wrk{
     padding: 10px;
-    background-image: ;
+    background-image: url(/image/pexels-tima-miroshnichenko-5327483.jpg);
+    background-size: cover;
+    height: 150px;
 }
-.legs-work{
+.legs-wrk{
     padding: 10px;
-    background-image: ;
+    background-image:url(/image/pexels-scottwebb-136404.jpg) ;
+    background-size: cover;
+    height: 150px;
 }
-.hip-work{
+.hip-wrk{
     padding: 10px;
-    background-image: ;
+    background-image: url(/image/pexels-olly-4807549.jpg) ;
+    background-size: cover;
+    height: 150px;
 }
-.core-work{
+.core-wrk{
     padding: 10px;
-    background-image: ;
+    background-image:url(/image/pexels-ivan-samkov-4164507.jpg) ;
+    height: 150px;
+    background-size: cover;
 }
-.full-work{
+.full-wrk{
     padding: 10px;
-    background-image: ;
+    background-image: url(/image/pexels-ketut-subiyanto-4804333.jpg);
+    background-size: cover;
+    height: 150px;
 }
