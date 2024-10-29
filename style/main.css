@@ -93,37 +93,46 @@ nav .menu{
     width: 100%;
     a{
         text-decoration: none;
-        /* color: whitesmoke ; */
+        color: whitesmoke ;
         width: 300px;
+        height: 200px;
     }
+}
+hr{
+    width: 160px;
+    color: #E6E6FA;
 }
 .arms-wrk{
     padding: 10px;
     background-image: url(/image/pexels-tima-miroshnichenko-5327483.jpg);
     background-size: cover;
-    height: 150px;
 }
 .legs-wrk{
     padding: 10px;
     background-image:url(/image/pexels-scottwebb-136404.jpg) ;
     background-size: cover;
-    height: 150px;
+    display: grid;  
 }
 .hip-wrk{
     padding: 10px;
     background-image: url(/image/pexels-olly-4807549.jpg) ;
     background-size: cover;
-    height: 150px;
 }
 .core-wrk{
     padding: 10px;
-    background-image:url(/image/pexels-ivan-samkov-4164507.jpg) ;
-    height: 150px;
+    background-image:url(/image/pexels-ketut-subiyanto-4720537.jpg) ;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .full-wrk{
     padding: 10px;
     background-image: url(/image/pexels-ketut-subiyanto-4804333.jpg);
     background-size: cover;
-    height: 150px;
+}
+.wrks{
+    padding: 40px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
