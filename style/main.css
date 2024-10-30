@@ -137,5 +137,16 @@ hr{
     gap: 5px;
 }
 .about{
-    
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 20px;
+        padding: 30px;
+        text-align: center;
+    }
 }
