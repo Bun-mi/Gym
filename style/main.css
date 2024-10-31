@@ -152,4 +152,32 @@ hr{
 }
 .reg-plans{
     background-color: whitesmoke;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.plans{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.card{
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 6px 4px darkgrey;
+    ul{
+        padding: 20px;
+        line-height: 1.5rem;
+    }
+}
+.head{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+    
 }
