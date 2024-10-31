@@ -179,5 +179,7 @@ hr{
     text-align: center;
     padding: 20px;
     line-height: 2rem;
-    
+    h3{
+        font-size: 24px;
+    }
 }
