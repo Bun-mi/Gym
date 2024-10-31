@@ -138,10 +138,6 @@ hr{
 }
 .about{
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 .about-info{
     padding: 20px;
@@ -205,4 +201,19 @@ hr{
     h3{
         font-size: 24px;
     }
+}
+.testy{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testy-head{
+    font-size: 26px;
+    padding: 10px;
+    margin: 5px;
+}
+.dets{
+    padding: 20px;
 }
