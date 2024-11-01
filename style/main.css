@@ -86,6 +86,7 @@ nav .menu{
         border-radius: 5px;
         background-color: #E6E6FA;
         font-size: 16px;
+        cursor: pointer;
     }
 }
 .wrk{
@@ -156,6 +157,7 @@ hr{
         border: none;
         background-color: #E6E6FA;
         border-radius: 5px;
+        cursor: pointer;
     }
 }
 .reg-plans{
@@ -189,6 +191,7 @@ hr{
         border: none;
         background-color: #E6E6FA;
         border-radius: 5px;
+        cursor: pointer;
     }
 }
 .head{
@@ -259,13 +262,13 @@ hr{
     background-color: #555;
 }
 footer{
-    background-color: black;
+    background-color: #010012;
     color: white;
     padding: 20px;
     align-items: center;
     a{
         text-decoration: none;
-        color: white;
+        color: #E6E6FA;
     }
     ul{
         list-style: none;
@@ -274,6 +277,7 @@ footer{
     }
     h3{
        margin-bottom: 10px;
+       color: lightgoldenrodyellow;
     }
 }
 section{
@@ -290,6 +294,7 @@ section{
         line-height: 1.5;
         margin-top: 20px;
         text-align: justify;
+        color: #E6E6FA;
     }
 }
 .fit-logo{
@@ -316,7 +321,7 @@ section{
     gap: 10px;
     a{
         text-decoration: none;
-        color: white;
+        color: #E6E6FA;
         font-size: 20px;
     }    
 }
