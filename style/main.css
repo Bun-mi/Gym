@@ -216,4 +216,27 @@ hr{
 }
 .dets{
     padding: 20px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+.userdets{
+    font-size: 18px;
+}
+.userinfo{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.userimg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
 }
