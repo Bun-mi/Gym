@@ -240,3 +240,21 @@ hr{
         object-fit: cover;
     }
 }
+.scroll-box{
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    .dot{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ccc;
+        margin: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in-out;
+    }
+}
+.dot:hover{
+    background-color: #555;
+}
