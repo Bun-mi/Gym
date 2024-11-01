@@ -185,6 +185,7 @@ hr{
     ul{
         padding: 20px;
         line-height: 1.5rem;
+        min-height: 250px ;
     }
     a button{
         padding: 10px;
