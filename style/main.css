@@ -28,6 +28,14 @@ nav{
         align-items: center;
     }
 }
+.tog-btn{
+    cursor: pointer;
+    font-size: 14px;
+    color: whitesmoke;
+    padding: 5px;
+    background-color: transparent;
+    display: inline-block;
+}
 nav .menu{
     display: flex;
     list-style: none;
