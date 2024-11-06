@@ -3,6 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root{
+    --base-color:white;
+    --base-variant:#ccc;
+    --text-color: lightgoldenrodyellow;
+    --primary-color: whitesmoke;
+    --secondary-color: #E6E6FA;
+    --dot-scroll-color: #555 ;
+    --footer-base-color:#010012;
+}
 .main{
     height: 600px;
     background-image: url(/image/pexels-leonardho-1552242.jpg);
@@ -22,7 +31,7 @@ nav{
     }
     a{
         text-decoration: none;
-        color: whitesmoke;
+        color: var(--primary-color);
         padding: 10px;
         display: flex;
         align-items: center;
@@ -31,7 +40,7 @@ nav{
 .tog-btn{
     cursor: pointer;
     font-size: 14px;
-    color: whitesmoke;
+    color: var(--primary-color);
     padding: 5px;
     background-color: transparent;
     display: inline-block;
@@ -43,7 +52,7 @@ nav .menu{
     
     a{
         text-decoration: none;
-        color: whitesmoke;
+        color:var(--primary-color);
         padding: 10px;
     }
 }
@@ -56,7 +65,7 @@ nav .menu{
 }
 .quotes{
     font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
+    color: var(--primary-color);
     text-align: center;
     margin-bottom: 20px;
     line-height: 2em;
@@ -68,7 +77,7 @@ nav .menu{
     }
     h2{
         font-weight: bold;
-        color: lightgoldenrodyellow;
+        color: var(--text-color);
         font-size: 32px;
         padding: 20px;
         margin-top: 10px;
@@ -76,13 +85,13 @@ nav .menu{
 }
 .quote::before {
     content: open-quote;
-    color: whitesmoke;
+    color: var(--primary-color);
     font-size: 4rem;
     margin-right: 5px;
 }
 .quote::after {
     content: close-quote;
-    color: whitesmoke;
+    color: var(--primary-color);
     font-size: 4rem;
     margin-right: 5px;
 }
@@ -92,7 +101,7 @@ nav .menu{
         padding: 10px;
         border: none;
         border-radius: 5px;
-        background-color: #E6E6FA;
+        background-color: var(--secondary-color);
         font-size: 16px;
         cursor: pointer;
     }
@@ -102,14 +111,14 @@ nav .menu{
     width: 100%;
     a{
         text-decoration: none;
-        color: whitesmoke ;
+        color: var(--primary-color);
         width: 300px;
         height: 200px;
     }
 }
 hr{
     width: 160px;
-    color: #E6E6FA;
+    color: var(--secondary-color);
 }
 .arms-wrk{
     padding: 10px;
@@ -163,13 +172,13 @@ hr{
     a button{
         padding: 15px;
         border: none;
-        background-color: #E6E6FA;
+        background-color: var(--secondary-color);
         border-radius: 5px;
         cursor: pointer;
     }
 }
 .reg-plans{
-    background-color: whitesmoke;
+    background-color: var(--primary-color);
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -186,7 +195,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
+    background-color: var(--base-color);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 2px 5px 6px 4px darkgrey;
@@ -198,7 +207,7 @@ hr{
     a button{
         padding: 10px;
         border: none;
-        background-color: #E6E6FA;
+        background-color: var(--secondary-color);
         border-radius: 5px;
         cursor: pointer;
     }
@@ -244,7 +253,7 @@ hr{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: var(--base-variant);
     img{
         width: 50px;
         height: 50px;
@@ -261,23 +270,23 @@ hr{
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color: #ccc;
+        background-color: var(--base-variant);
         margin: 5px;
         cursor: pointer;
         transition: background-color 0.3s ease-in-out;
     }
 }
 #dot:hover{
-    background-color: #555;
+    background-color: var(--dot-scroll-color);
 }
 footer{
-    background-color: #010012;
-    color: white;
+    background-color: var(--footer-base-color);
+    color: var(--base-color);
     padding: 20px;
     align-items: center;
     a{
         text-decoration: none;
-        color: #E6E6FA;
+        color: var(--secondary-color);
     }
     ul{
         list-style: none;
@@ -286,7 +295,7 @@ footer{
     }
     h3{
        margin-bottom: 10px;
-       color: lightgoldenrodyellow;
+       color: var(--text-color);
     }
 }
 section{
@@ -303,7 +312,7 @@ section{
         line-height: 1.5;
         margin-top: 20px;
         text-align: justify;
-        color: #E6E6FA;
+        color: var(--secondary-color);
     }
 }
 .fit-logo{
@@ -313,7 +322,7 @@ section{
     }
     a{
         text-decoration: none;
-        color: lightgoldenrodyellow;
+        color: var(--text-color);
         padding: 10px;
         display: flex;
         align-items: center;
@@ -330,13 +339,13 @@ section{
     gap: 10px;
     a{
         text-decoration: none;
-        color: #E6E6FA;
+        color: var(--secondary-color);
         font-size: 20px;
     }    
 }
 .copyright{
     padding: 20px;
     text-align: center;
-    color: whitesmoke;
+    color: var(--primary-color);
     font-size: 14px;
 }

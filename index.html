@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div class="main">
+    <div class="main" id="main">
         <nav>
             <div class="logo">
                 <a href="">
@@ -25,7 +25,10 @@
                 <li><a href="">Login</a></li>
                 <li><a href="">Account</a></li>
             </ul>
-            <button class="tog-btn">Dark Mode</button>
+            <button class="tog-btn">
+                <i class="bi bi-moon" id="dark"></i>
+                <i class="bi bi-sun" id="light"></i>
+            </button>
         </nav>
         <div class="bod">
           <div class="quotes">
@@ -38,7 +41,7 @@
             </button></a>
         </div>
     </div>
-    <div class="wrk">
+    <div class="wrk" id="wrk">
         <a href="">
             <div class="arms-wrk">
                 <div class="wrks">
@@ -85,7 +88,7 @@
             </div>
         </a>       
     </div>
-    <div class="about">
+    <div class="about" id="about">
         <div class="about-info">
             <h3>FiTGYM</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro explicabo sit facilis quae. Repudiandae nostrum minima rerum exercitationem repellendus voluptate est quia. Laboriosam incidunt accusantium nobis natus suscipit sint sapiente reprehenderit qui beatae libero reiciendis totam iure explicabo quis nemo facere culpa, aperiam, doloremque ratione nisi? Quos est repellendus veniam!</p>
@@ -94,7 +97,7 @@
             </a>
         </div>
     </div>
-    <div class="reg-plans">
+    <div class="reg-plans" id="reg-plans">
         <h1>Membership Plans</h1>
         <div class="plans">
             <div class="card">
@@ -147,7 +150,7 @@
             </div>
         </div>    
     </div>
-    <div class="testy">
+    <div class="testy" id="testy">
         <div class="testy-head">
             <h2>Testimonials</h2>
         </div>
@@ -209,5 +212,6 @@
             </div>
         </section>
     </footer>
+    <script src="javascri/main.js"></script>
 </body>
 </html>
