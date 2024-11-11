@@ -1,9 +1,13 @@
-// const toggleMode = document.querySelector(".tog-btn")
+const toggleMode = document.querySelector(".tog-btn")
 
 
-// function toggleMod(){
-//     // var mainDark = document.querySelector("#main");
-//     mainDark.classList.toggle("#main");
-// }
+function toggleMod(){
+    document.body.classList.toggle("darkmode");
+    if(document.body.classList.contains("darkmode")){
+        toggleMode.src = "/images/sun.jpg";
+    } else{
+        toggleMode.src = "/images/moon.jpg";
+    }
+}
 
-// toggleMode.addEventListener("click", toggleMod());
+toggleMode.addEventListener("click", toggleMod);

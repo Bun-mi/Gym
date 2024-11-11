@@ -5,18 +5,32 @@
 }
 :root{
     --base-color:white;
+    --shadow-color: darkgrey;
     --base-variant:#ccc;
     --text-color: lightgoldenrodyellow;
+    --primary-font-color: black;
     --primary-color: whitesmoke;
     --secondary-color: #E6E6FA;
     --dot-scroll-color: #555 ;
     --footer-base-color:#010012;
+}
+.darkmode{
+     --base-color: #0d0d1a;
+    --base-variant:rgba(98, 98, 107, 0.11);
+    --text-color: rgb(245, 245, 182);
+    --primary-font-color: whitesmoke;
+    --shadow-color: #02020a;
+    --primary-color: #000000;
+    --secondary-color: #E6E6FA;
+    --dot-scroll-color: #555 ;
+    --footer-base-color:#02020a;
 }
 .main{
     height: 600px;
     background-image: url(/image/pexels-leonardho-1552242.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-blend-mode: saturation;
 }
 nav{
     display: flex;
@@ -44,6 +58,12 @@ nav{
     padding: 5px;
     background-color: transparent;
     display: inline-block;
+}
+.tog-btn .dark{
+    height: 20px;
+}
+.tog-btn .light{
+    height: 20px;
 }
 nav .menu{
     display: flex;
@@ -156,6 +176,8 @@ hr{
 }
 .about{
     padding: 30px;
+    color: var(--primary-font-color);
+    background-color: var(--base-color);
 }
 .about-info{
     padding: 20px;
@@ -178,6 +200,7 @@ hr{
     }
 }
 .reg-plans{
+    color: var(--primary-font-color);
     background-color: var(--primary-color);
     padding: 40px;
     display: flex;
@@ -198,7 +221,7 @@ hr{
     background-color: var(--base-color);
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 2px 5px 6px 4px darkgrey;
+    box-shadow: 2px 5px 6px 4px var(--shadow-color);
     ul{
         padding: 20px;
         line-height: 1.5rem;
@@ -220,15 +243,18 @@ hr{
     min-width: 200px;
     background-image: url(/image/images\ \(1\).jpg);
     h3{
+        color: black;
         font-size: 24px;
     }
 }
 .testy{
+    color: var(--primary-font-color);
     padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--base-color);
 }
 .testy-head{
     font-size: 26px;
