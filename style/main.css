@@ -59,11 +59,17 @@ nav{
     background-color: transparent;
     display: inline-block;
 }
-.tog-btn .dark{
+.tog-btn .dark, .tog-btn .light {
+    font-size: 18px;
+    display: inline-block;
     height: 20px;
 }
-.tog-btn .light{
-    height: 20px;
+.tog-btn.dark-mode-active .dark {
+    display: none;
+}
+
+.tog-btn.light-mode-active .light {
+    display: none;
 }
 nav .menu{
     display: flex;

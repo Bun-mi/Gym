@@ -4,9 +4,11 @@ const toggleMode = document.querySelector(".tog-btn")
 function toggleMod(){
     document.body.classList.toggle("darkmode");
     if(document.body.classList.contains("darkmode")){
-        toggleMode.src = "/images/sun.jpg";
+        toggleMode.querySelector(".dark").style.display = "none";
+        toggleMode.querySelector(".light").style.display = "block";
     } else{
-        toggleMode.src = "/images/moon.jpg";
+        toggleMode.querySelector(".dark").style.display = "block";
+        toggleMode.querySelector(".light").style.display = "none";
     }
 }
 
